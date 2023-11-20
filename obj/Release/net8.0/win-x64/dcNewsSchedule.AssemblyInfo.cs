@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dcNewsSchedule")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b8c2b338c801ec945a77d7ddc8e9171b2212f46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+587176b81218524fea46ec6e4fbe0d41d03b441c")]
 [assembly: System.Reflection.AssemblyProductAttribute("dcNewsSchedule")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dcNewsSchedule")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

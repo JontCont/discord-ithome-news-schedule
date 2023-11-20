@@ -63,7 +63,7 @@ foreach (var row in contents.Select((x, index) => new { data = x, index }))
     string format = "yyyy-MM-dd";
     if (timer == null) { continue; }
     dateTime = DateTime.ParseExact(timer?.Trim(), format, CultureInfo.InvariantCulture);
-    if (dateTime.Date != DateTime.Now.Date)
+    if (dateTime.Date != GetDateTimeNow().Date)
     {
         break;
     }
@@ -132,4 +132,11 @@ static void SendMessage(messages json, string webhook)
     client.Headers.Add("Content-Type", "application/json");
     string payload = JsonConvert.SerializeObject(json);
     client.UploadData(webhook, Encoding.UTF8.GetBytes(payload));
+}
+
+static DateTime GetDateTimeNow()
+{
+    DateTime dateTime = DateTime.Now;
+    var timeZone = TimeZoneInfo.FindSystemTimeZoneById("Taipei Standard Time");
+    return TimeZoneInfo.ConvertTime(dateTime, timeZone);
 }
