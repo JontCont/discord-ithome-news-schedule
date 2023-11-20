@@ -101,8 +101,24 @@ foreach (var row in contents.Select((x, index) => new { data = x, index }))
 }
 
 
-if (contentEmbed.Count() > 1)
+if (contentEmbed.Count() > 1 || !string.IsNullOrEmpty(detailstr))
 {
+    if (contentEmbed.Count() <= 1)
+    {
+        contentEmbed.Add(new Embed
+        {
+            title = $"其他資訊- 1",
+            description = detailstr,
+            color = 0x00ff00,
+            footer = new Footer
+            {
+                text = "Powered by ITHome",
+                icon_url = "https://s4.itho.me/sites/default/files/ithome_logo_0.png"
+            }
+        });
+        detailstr = "";
+    }
+
     SendMessage(new messages
     {
         content = $"【系統】IThome 新聞快訊\n",

@@ -18,3 +18,4 @@ C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Debug\net8.0\refint\dcNewsSched
 C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Debug\net8.0\dcNewsSchedule.pdb
 C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Debug\net8.0\dcNewsSchedule.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Debug\net8.0\ref\dcNewsSchedule.dll
+C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Debug\net8.0\dcNewsSchedule.sourcelink.json

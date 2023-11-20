@@ -198,3 +198,4 @@ C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Release\net8.0\win-x64\refint\d
 C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Release\net8.0\win-x64\dcNewsSchedule.pdb
 C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Release\net8.0\win-x64\dcNewsSchedule.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Release\net8.0\win-x64\ref\dcNewsSchedule.dll
+C:\Users\ASUS\Desktop\example\dcNewsSchedule\obj\Release\net8.0\win-x64\dcNewsSchedule.sourcelink.json
