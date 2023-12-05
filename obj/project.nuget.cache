@@ -1,15 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EzrVUH0fPZ4aVsSsigeX2yALO3UHqPc+FCsCip1/upCNq3NReW2MjcKF2nnOHyzyeyzNx9MUSk6MLbtK8Yo9Og==",
+  "dgSpecHash": "zXcc5R9lVOIqTwbfbh/cR3jAplPPk+t2ZzfBPb10tz6VrQ4Mf+EyXnDn5L4snAMLZdC+lZinS3LMQJub2Zk3EQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\example\\dcNewsSchedule\\dcNewsSchedule.csproj",
+  "projectFilePath": "E:\\10.GitHub\\discordNewsSchedule\\dcNewsSchedule.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ASUS\\.nuget\\packages\\anglesharp\\1.0.7\\anglesharp.1.0.7.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.0-rc.2.23479.6\\microsoft.netcore.app.runtime.win-x64.8.0.0-rc.2.23479.6.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.0-rc.2.23479.10\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.0-rc.2.23479.10.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.0-rc.2.23480.2\\microsoft.aspnetcore.app.runtime.win-x64.8.0.0-rc.2.23480.2.nupkg.sha512"
+    "C:\\Users\\JCont\\.nuget\\packages\\anglesharp\\1.0.7\\anglesharp.1.0.7.nupkg.sha512",
+    "C:\\Users\\JCont\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\JCont\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\system.text.encoding.codepages.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

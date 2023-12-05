@@ -59,16 +59,9 @@ foreach (var row in contents.Select((x, index) => new { data = x, index }))
     var link = items?.QuerySelector("p.title a")?.GetAttribute("href");
     var photo = items?.QuerySelector("p.photo a img")?.GetAttribute("src");
     var title = items?.QuerySelector("p.title")?.TextContent;
-    var timer = items.QuerySelector("p.post-at")?.TextContent;
     string format = "yyyy-MM-dd";
-    if (timer == null) { continue; }
-    dateTime = DateTime.ParseExact(timer?.Trim(), format, CultureInfo.InvariantCulture);
-    if (dateTime.Date != GetDateTimeNow().Date)
-    {
-        break;
-    }
     detailstr += $"☕ - {row.index + 1} [{title?.Trim()}](https://www.ithome.com.tw{link})\n";
-    if ((row.index + 1) % 5 == 0)
+    if ((row.index + 1) == 5)
     {
         contentEmbed.Add(new Embed
         {
@@ -82,21 +75,7 @@ foreach (var row in contents.Select((x, index) => new { data = x, index }))
             }
         });
         detailstr = "";
-    }
-    if (row.index == contents.Count() - 1)
-    {
-        contentEmbed.Add(new Embed
-        {
-            title = $"其他資訊- {(row.index + 1) / 5 + 1}",
-            description = detailstr,
-            color = 0x00ff00,
-            footer = new Footer
-            {
-                text = "Powered by ITHome",
-                icon_url = "https://s4.itho.me/sites/default/files/ithome_logo_0.png"
-            }
-        });
-        detailstr = "";
+        break;
     }
 }
 

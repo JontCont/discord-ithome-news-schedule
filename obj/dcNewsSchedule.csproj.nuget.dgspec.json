@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\example\\dcNewsSchedule\\dcNewsSchedule.csproj": {}
+    "E:\\10.GitHub\\discordNewsSchedule\\dcNewsSchedule.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\example\\dcNewsSchedule\\dcNewsSchedule.csproj": {
+    "E:\\10.GitHub\\discordNewsSchedule\\dcNewsSchedule.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\example\\dcNewsSchedule\\dcNewsSchedule.csproj",
+        "projectUniqueName": "E:\\10.GitHub\\discordNewsSchedule\\dcNewsSchedule.csproj",
         "projectName": "dcNewsSchedule",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\example\\dcNewsSchedule\\dcNewsSchedule.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\example\\dcNewsSchedule\\obj\\",
+        "projectPath": "E:\\10.GitHub\\discordNewsSchedule\\dcNewsSchedule.csproj",
+        "packagesPath": "C:\\Users\\JCont\\.nuget\\packages\\",
+        "outputPath": "E:\\10.GitHub\\discordNewsSchedule\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JCont\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +25,7 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,31 +64,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.0-rc.2.23480.2, 8.0.0-rc.2.23480.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.0-rc.2.23479.6, 8.0.0-rc.2.23479.6]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[8.0.0-rc.2.23479.10, 8.0.0-rc.2.23479.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
