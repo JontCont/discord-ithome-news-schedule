@@ -4,8 +4,8 @@ on:
   push:
     branches: [ "master" ]
   workflow_dispatch:
-  schedule:
-    - cron: '0 8 * * *'  # Set your desired schedule, this example runs daily at midnight
+#  schedule:
+#    - cron: '0 8 * * *'  # Set your desired schedule, this example runs daily at midnight
 
 jobs:
   build:
